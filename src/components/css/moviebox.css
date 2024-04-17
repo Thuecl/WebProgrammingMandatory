@@ -1,0 +1,59 @@
+.movieBox {
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  width: 450px;
+  height: 450px;
+  background-color: #ecd4ff;
+}
+
+.title {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.data {
+  font-size: 0.6em;
+}
+
+.overview {
+
+font-size: 0.9em;
+}
+
+.id {
+  font-size: 0.7em;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.cardheader {
+  display: flex;
+  width: 100%;
+}
+
+.imgbox {
+  margin-right: 20px;
+}
+
+.heart {
+  height: 20px;
+  width: 20px;
+  padding-left: 7px;
+}
+
+.counter {
+  font-size: 7px;
+}
+
+.like {
+  display: flex;
+  padding-top: 5px;
+}
